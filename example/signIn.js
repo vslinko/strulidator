@@ -1,4 +1,4 @@
-import {constraints} from '../src'
+import {constraints} from '../lib'
 
 const {
   createObjectConstraint,
