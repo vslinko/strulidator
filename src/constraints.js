@@ -12,7 +12,7 @@ export const notNull = createConstraint(
 
 export const notEmpty = createValueConstraint(
   validators.notEmpty,
-  'Value is null or undefined'
+  'Value is empty'
 )
 
 export const string = createValueConstraint(
