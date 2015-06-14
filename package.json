@@ -33,7 +33,7 @@
   "config": {
   },
   "dependencies": {
-    "ramda": "0.14.0"
+    "lodash": "3.9.3"
   },
   "devDependencies": {
     "babel": "5.5.6",
