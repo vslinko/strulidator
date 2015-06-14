@@ -1,9 +1,36 @@
 {
   "name": "strulidator",
-  "version": "1.0.0",
-  "main": "lib",
+  "version": "1.0.1",
+  "description": "Declarative validator for complex deep structures.",
+  "keywords": [
+    "validation",
+    "validator",
+    "schema"
+  ],
+  "homepage": "https://github.com/vslinko/strulidator",
+  "bugs": {
+    "url": "https://github.com/vslinko/strulidator/issues",
+    "email": "vslinko@yahoo.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Vyacheslav Slinko",
+    "email": "vslinko@yahoo.com",
+    "url": "https://twitter.com/vslinko"
+  },
+  "contributors": [
+  ],
+  "main": "dist",
+  "bin": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "vslinko/strulidator"
+  },
   "scripts": {
-    "prepublish": "babel -d lib src"
+    "prepublish": "babel -d dist lib"
+  },
+  "config": {
   },
   "dependencies": {
     "ramda": "0.14.0"
@@ -11,5 +38,21 @@
   "devDependencies": {
     "babel": "5.5.6",
     "babel-runtime": "5.5.6"
+  },
+  "peerDependencies": {
+  },
+  "bundledDependencies": [
+  ],
+  "optionalDependencies": {
+  },
+  "engines": {
+  },
+  "os": [
+  ],
+  "cpu": [
+  ],
+  "preferGlobal": false,
+  "private": false,
+  "publishConfig": {
   }
 }
