@@ -13,14 +13,14 @@ const signInValidator = combineConstraints({
   keys: createObjectKeysConstraint({
     email: true,
     password: true,
-    items: false,
+    items: false
   }),
   values: createObjectConstraint({
     email: combineConstraints({
       notNull,
       notEmpty,
       string,
-      email,
+      email
     }),
     password: string,
     items: combineConstraints({
