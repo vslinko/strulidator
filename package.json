@@ -42,7 +42,8 @@
   "devDependencies": {
     "babel": "5.5.8",
     "babel-runtime": "5.5.8",
-    "eslint": "0.23.0"
+    "eslint": "0.23.0",
+    "jest-cli": "0.4.13"
   },
   "peerDependencies": {
   },
@@ -59,5 +60,12 @@
   "preferGlobal": false,
   "private": false,
   "publishConfig": {
+  },
+  "jest": {
+    "testPathDirs": ["<rootDir>/dist"],
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/babel-runtime",
+      "<rootDir>/node_modules/lodash"
+    ]
   }
 }
