@@ -1,14 +1,13 @@
 machine:
   node:
-    version: 0.12.0
+    version: iojs-v1.3.0
 
 dependencies:
   override:
     - npm install --ignore-scripts
 
 test:
-  override:
-    - npm run test-coverage
+  post:
     - cat ./coverage/lcov.info | ./node_modules/codecov.io/bin/codecov.io.js
 
 general:
