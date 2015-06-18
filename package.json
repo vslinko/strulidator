@@ -18,11 +18,9 @@
     "email": "vslinko@yahoo.com",
     "url": "https://twitter.com/vslinko"
   },
-  "contributors": [
-  ],
+  "contributors": [],
   "main": "dist",
-  "bin": {
-  },
+  "bin": {},
   "repository": {
     "type": "git",
     "url": "vslinko/strulidator"
@@ -34,8 +32,7 @@
     "test": "npm run build && npm run jest",
     "lint": "eslint lib"
   },
-  "config": {
-  },
+  "config": {},
   "dependencies": {
     "lodash": "3.9.3"
   },
@@ -45,24 +42,19 @@
     "eslint": "0.23.0",
     "jest-cli": "0.4.13"
   },
-  "peerDependencies": {
-  },
-  "bundledDependencies": [
-  ],
-  "optionalDependencies": {
-  },
-  "engines": {
-  },
-  "os": [
-  ],
-  "cpu": [
-  ],
+  "peerDependencies": {},
+  "bundledDependencies": [],
+  "optionalDependencies": {},
+  "engines": {},
+  "os": [],
+  "cpu": [],
   "preferGlobal": false,
   "private": false,
-  "publishConfig": {
-  },
+  "publishConfig": {},
   "jest": {
-    "testPathDirs": ["<rootDir>/dist"],
+    "testPathDirs": [
+      "<rootDir>/dist"
+    ],
     "unmockedModulePathPatterns": [
       "<rootDir>/node_modules/babel-runtime",
       "<rootDir>/node_modules/lodash"
