@@ -7,11 +7,11 @@ module.exports = function(config) {
     frameworks: ['mocha'],
 
     files: [
-      'lib/**/__tests__/*.js'
+      'test/**/*Test.js'
     ],
 
     preprocessors: {
-      'lib/**/__tests__/*.js': ['webpack']
+      'test/**/*Test.js': ['webpack']
     },
 
     reporters: ['progress', 'coverage'],
@@ -29,7 +29,7 @@ module.exports = function(config) {
       module: {
         loaders: [
           {test: /\.js$/, exclude: /\/node_modules\//, loaders: ['babel']},
-          {test: /\.js$/, exclude: [/\/node_modules\//, /\/__tests__\//], loaders: ['isparta']}
+          {test: /\.js$/, exclude: [/\/node_modules\//, /\/test\//], loaders: ['isparta']}
         ]
       },
 

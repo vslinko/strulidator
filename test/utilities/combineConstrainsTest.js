@@ -1,6 +1,6 @@
 /* eslint-disable no-undefined */
 
-import combine from '../combineConstraints'
+import combine from '../../lib/utilities/combineConstraints'
 
 describe('combineConstraints', () => {
   it('should create a constraints', () => {

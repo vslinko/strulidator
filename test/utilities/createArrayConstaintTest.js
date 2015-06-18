@@ -1,4 +1,4 @@
-import createArrayConstraint from '../createArrayConstraint'
+import createArrayConstraint from '../../lib/utilities/createArrayConstraint'
 
 describe('createArrayConstraint', () => {
   const obj = createArrayConstraint(el => el)

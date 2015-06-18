@@ -1,6 +1,6 @@
 /* eslint-disable no-undefined */
 
-import createObjectConstraint from '../createObjectConstraint'
+import createObjectConstraint from '../../lib/utilities/createObjectConstraint'
 
 describe('createObjectConstraint', () => {
   const constraint = createObjectConstraint({

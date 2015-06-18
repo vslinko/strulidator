@@ -1,4 +1,4 @@
-import createValueConstraint from '../createValueConstraint'
+import createValueConstraint from '../../lib/utilities/createValueConstraint'
 
 describe('createValueConstraint', () => {
   it('should return valid result', () => {

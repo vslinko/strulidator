@@ -1,6 +1,6 @@
 /* eslint-disable no-undefined */
 
-import creator from '../createConstraint'
+import creator from '../../lib/utilities/createConstraint'
 
 describe('createConstraint', () => {
   const constraint = creator(isNaN)

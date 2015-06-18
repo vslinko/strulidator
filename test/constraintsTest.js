@@ -1,6 +1,6 @@
 /* eslint-disable no-undefined */
 
-import * as constraints from '../constraints'
+import * as constraints from '../lib/constraints'
 
 describe('constraints', () => {
   function Foo() {}

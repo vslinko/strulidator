@@ -1,4 +1,4 @@
-import getMessage from '../getMessage'
+import getMessage from '../../lib/utilities/getMessage'
 
 describe('getMessage', () => {
   it('should create a message', () => {
