@@ -445,6 +445,46 @@ describe('constraints', () => {
     })
   })
 
+  describe('createMinConstraint', () => {
+    it('should validate', () => {
+      assert.deepEqual(constraints.createMinConstraint(4)(null), {
+        valid: true,
+        message: null,
+        children: null
+      })
+      assert.deepEqual(constraints.createMinConstraint(4)(4), {
+        valid: true,
+        message: null,
+        children: null
+      })
+      assert.deepEqual(constraints.createMinConstraint(4)(3), {
+        valid: false,
+        message: 'Value is less than 4',
+        children: null
+      })
+    })
+  })
+
+  describe('createMaxConstraint', () => {
+    it('should validate', () => {
+      assert.deepEqual(constraints.createMaxConstraint(4)(null), {
+        valid: true,
+        message: null,
+        children: null
+      })
+      assert.deepEqual(constraints.createMaxConstraint(4)(4), {
+        valid: true,
+        message: null,
+        children: null
+      })
+      assert.deepEqual(constraints.createMaxConstraint(4)(5), {
+        valid: false,
+        message: 'Value is more than 4',
+        children: null
+      })
+    })
+  })
+
   describe('createMinLengthConstraint', () => {
     it('should validate', () => {
       assert.deepEqual(constraints.createMinLengthConstraint(4)(null), {
