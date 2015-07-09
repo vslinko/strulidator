@@ -52,4 +52,8 @@ describe('createObjectConstraint', () => {
       }
     )
   })
+
+  it('should provide access to child constraints', () => {
+    assert.isFunction(constraint.login)
+  })
 })
