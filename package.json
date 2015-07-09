@@ -1,6 +1,6 @@
 {
   "name": "strulidator",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Declarative validator for complex deep structures.",
   "keywords": [
     "validation",
