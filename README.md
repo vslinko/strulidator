@@ -1,5 +1,7 @@
 # strulidator
 
+# DEPRECATED! Please use [vstack-validator](https://github.com/vslinko/vstack-validator).
+
 > Declarative validator for complex deep structures.
 
 [![](https://img.shields.io/circleci/project/vslinko/strulidator.svg)](https://circleci.com/gh/vslinko/strulidator)
