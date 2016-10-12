@@ -8,6 +8,7 @@ dependencies:
 
 test:
   post:
+    - cat ./coverage/lcov.info
     - cat ./coverage/lcov.info | ./node_modules/codecov.io/bin/codecov.io.js
 
 general:
